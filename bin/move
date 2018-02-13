@@ -8,6 +8,6 @@ puts "Welcome to Tic Tac Toe!"
 
 input = gets
 index = input_to_index(input)
-mod_board = move(board, index)
+board = move(board, index)
 
-display_board(mod_board)
+display_board(board)
