@@ -9,5 +9,5 @@ puts "Welcome to Tic Tac Toe!"
 input = gets
 index = input_to_index(input)
 board = move(board, index)
-puts board
+
 display_board(board)
